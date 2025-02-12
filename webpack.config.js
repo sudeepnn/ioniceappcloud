@@ -16,7 +16,7 @@ module.exports = {
  
   // ✅ Move output.publicPath here (outside withModuleFederationPlugin)
   output: {
-    publicPath: "http://localhost:4201/",
+    publicPath: "https://ionicapp-gamma.vercel.app/",
     uniqueName: "app", // Ensures no conflicts in the module federation setup
   },
 };
